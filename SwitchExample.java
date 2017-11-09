@@ -21,9 +21,7 @@ class SwitchExample{
 			case 30: System.out.println("case 30 executed:");
 			break;
 			default: System.out.println("default executed:");
-			System.out.println("Testing");
-			System.out.println("Testing1");	
-		        break;
+			break;
 
 		}
  		
