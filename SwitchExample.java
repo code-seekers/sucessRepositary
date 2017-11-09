@@ -4,13 +4,11 @@ class SwitchExample{
  
                 System.out.println("Enter a number:");
 		Scanner s= new Scanner(System.in);
-		System.out.println("importance of hasNextInt");
 		while(!s.hasNextInt()){
 			System.out.println("Invalid Input, Please Enter a Number:");
 			s.next();
 		}
 	        int n = s.nextInt();
-		
 
  		System.out.println("Entered number is:"+n);
 		switch(n){
@@ -24,6 +22,7 @@ class SwitchExample{
 			break;
 			default: System.out.println("default executed:");
 			System.out.println("Testing");
+			System.out.println("Testing1");	
 		        break;
 
 		}
